@@ -1,6 +1,8 @@
 import data from "../api/data.json";
 
 const About = () => {
+  const d = new Date();
+  const year = d.getFullYear();
   return (
     <>
       {/* ======= About Section ======= */}
@@ -34,11 +36,13 @@ const About = () => {
                     </li>
                     <li>
                       <i className="bi bi-chevron-right" />
-                      <strong>Phone:</strong> <span>+123 456 7890</span>
+                      <strong>Phone:</strong>{" "}
+                      <span>{data.personalDetails.phoneNumber}</span>
                     </li>
                     <li>
                       <i className="bi bi-chevron-right" />
-                      <strong>City:</strong> <span>New York, USA</span>
+                      <strong>Address:</strong>{" "}
+                      <span>{data.personalDetails.address}</span>
                     </li>
                   </ul>
                 </div>
@@ -47,20 +51,17 @@ const About = () => {
                     <li>
                       <i className="bi bi-chevron-right" />{" "}
                       <strong>Age:</strong>
-                      <span>30</span>
+                      <span>{year - 1985}</span>
                     </li>
                     <li>
                       <i className="bi bi-chevron-right" />
-                      <strong>Degree:</strong> <span>Master</span>
+                      <strong>Degree:</strong>{" "}
+                      <span>{data.personalDetails.degree}</span>
                     </li>
                     <li>
                       <i className="bi bi-chevron-right" />
-                      <strong>PhEmailone:</strong>
-                      <span>email@example.com</span>
-                    </li>
-                    <li>
-                      <i className="bi bi-chevron-right" />
-                      <strong>Freelance:</strong> <span>Available</span>
+                      <strong>Email:</strong>
+                      <span>{data.personalDetails.email}</span>
                     </li>
                   </ul>
                 </div>
