@@ -6,14 +6,22 @@
     "address": "New Cabalan, Olongapo City, Zambales, Philippines",
     "email": "lesterreandino@gmail.com",
     "phoneNumber": "+63-915-982-2241",
-    "about": "A Husband and a Father of 3 kids. Enthusiastic in giving value to businesses and companies by using Web Development skills",
-    "degree": "Bachelor"
+    "about": "A Husband and a Father of 3 kids. Enthusiastic in giving value to businesses and companies by using Web Development skills"
+  },
+  "education": {
+    "degree": "Bachelor",
+    "course": "Bachelor of Science in Computer Science",
+    "year": "June 2002 - October 2005",
+    "school": "Columban College",
+    "schoolAddress": "Olongapo City, Zambales"
   },
   "professionalDetails": {
     "mainTitles": "Web Developer and Designer",
     "jobTitles": [
       "Web Developer",
       "Web Designer",
+      "Project Manager",
+      "Virtual Assistant",
       "Freelancer",
       "Self-Employed",
       "Dancer"
@@ -26,5 +34,19 @@
       "Wordpress": 90,
       "Python": 75
     }
-  }
+  },
+  "jobExperiences": [
+    {
+      "title": "Web Developer",
+      "date": "2017 - Present",
+      "company": "Ippei Leads, Inc",
+      "tasks": ["web development", "web management"]
+    },
+    {
+      "title": "Production Manager",
+      "date": "2016 - 2017",
+      "company": "LINDBERG AG A4 - Branch",
+      "tasks": ["lead", "manage"]
+    }
+  ]
 }

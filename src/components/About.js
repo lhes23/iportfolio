@@ -56,7 +56,7 @@ const About = () => {
                     <li>
                       <i className="bi bi-chevron-right" />
                       <strong>Degree:</strong>{" "}
-                      <span>{data.personalDetails.degree}</span>
+                      <span>{data.education.degree}</span>
                     </li>
                     <li>
                       <i className="bi bi-chevron-right" />
