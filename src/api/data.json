@@ -1,0 +1,29 @@
+{
+  "personalDetails": {
+    "firstName": "Lester",
+    "lastName": "Reandino",
+    "bday": "23 December, 1985",
+    "address": "New Cabalan, Olongapo City, Zambales, Philippines",
+    "email": "lesterreandino@gmail.com",
+    "phoneNumber": "09159822241",
+    "about": "A Husband and a Father of 3 kids. Enthusiastic in giving value to businesses and companies by using Web Development skills"
+  },
+  "professionalDetails": {
+    "mainTitles": "Web Developer and Designer",
+    "jobTitles": [
+      "Web Developer",
+      "Web Designer",
+      "Freelancer",
+      "Self-Employed",
+      "Dancer"
+    ],
+    "skills": {
+      "HTML": 100,
+      "CSS": 90,
+      "JavaScript": 80,
+      "PHP": 80,
+      "Wordpress": 90,
+      "Python": 75
+    }
+  }
+}
