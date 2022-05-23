@@ -18,12 +18,7 @@ const Resume = () => {
                   data.personalDetails.lastName}
               </h4>
               <p>
-                <em>
-                  Innovative and deadline-driven Graphic Designer with 3+ years
-                  of experience designing and developing user-centered
-                  digital/print marketing material from initial concept to
-                  final, polished deliverable.
-                </em>
+                <em>{data.professionalDetails.summary}</em>
               </p>
               <ul>
                 <li>{data.personalDetails.address}</li>
