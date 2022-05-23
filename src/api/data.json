@@ -23,8 +23,6 @@
       "Web Designer",
       "Project Manager",
       "Virtual Assistant",
-      "Freelancer",
-      "Self-Employed",
       "Dancer"
     ],
     "skills": {
@@ -41,13 +39,35 @@
       "title": "Web Developer",
       "date": "2017 - Present",
       "company": "Ippei Leads, Inc",
-      "tasks": ["web development", "web management"]
+      "tasks": [
+        "Managing the main website in WordPress hosted in Amazon Web Service (AWS) Cloud using Secure Shell (SSH) and Github",
+        "Develop a python program that can automate the integration and update of the site",
+        "Execute SQL command to Database whenever we need to change something  like date or string"
+      ]
     },
     {
       "title": "Production Manager",
       "date": "2016 - 2017",
       "company": "LINDBERG AG A4 - Branch",
       "tasks": ["lead", "manage"]
+    }
+  ],
+  "socialMedias": [
+    {
+      "title": "facebook",
+      "url": "https://www.facebook.com/lester.reandino/"
+    },
+    {
+      "title": "twitter",
+      "url": "https://twitter.com/lesterreandino"
+    },
+    {
+      "title": "linkedin",
+      "url": "https://www.linkedin.com/in/lester-reandino/"
+    },
+    {
+      "title": "instagram",
+      "url": "https://www.instagram.com/lesterreandino/"
     }
   ]
 }

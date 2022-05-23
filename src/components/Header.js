@@ -19,21 +19,11 @@ const Header = () => {
               </a>
             </h1>
             <div className="social-links mt-3 text-center">
-              <a href="#" className="twitter">
-                <i className="bx bxl-twitter" />
-              </a>
-              <a href="#" className="facebook">
-                <i className="bx bxl-facebook" />
-              </a>
-              <a href="#" className="instagram">
-                <i className="bx bxl-instagram" />
-              </a>
-              <a href="#" className="google-plus">
-                <i className="bx bxl-skype" />
-              </a>
-              <a href="#" className="linkedin">
-                <i className="bx bxl-linkedin" />
-              </a>
+              {data.socialMedias.map((socmed) => (
+                <a href={socmed.url} className={socmed.title} target="_blank">
+                  <i className={`bx bxl-${socmed.title}`} />
+                </a>
+              ))}
             </div>
           </div>
           <nav id="navbar" className="nav-menu navbar">
