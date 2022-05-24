@@ -270,7 +270,7 @@ h6 {
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 60px 0;
+  padding: 60px 60px;
   overflow: hidden;
 }
 
@@ -382,7 +382,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Akills
+# Skills
 --------------------------------------------------------------*/
 .skills .progress {
   height: 60px;
@@ -417,6 +417,13 @@ section {
 /*--------------------------------------------------------------
 # Resume
 --------------------------------------------------------------*/
+.resume .resume-title {
+  font-size: 26px;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #050d18;
+}
 .resume .resume-item {
   padding: 0 0 20px 20px;
   margin-top: -2px;
