@@ -7,6 +7,7 @@ const Portfolio = () => {
   const portfolioAll = () => {
     setFilteredPort(data.portfolio);
   };
+
   const filteredPortHandler = (event) => {
     console.log(event.target.value);
     const filteredArray = data.portfolio.filter(
@@ -63,7 +64,8 @@ const Portfolio = () => {
               >
                 <div className="portfolio-wrap">
                   <img
-                    src={`assets/img/portfolio/${portfolio.img}`}
+                    // src={`%PUBLIC_URL%/assets/img/portfolio/${portfolio.img}`}
+                    src={require(`../../public/assets/img/portfolio/${portfolio.img}`)}
                     className="img-fluid"
                     alt="true"
                   />

@@ -28,8 +28,8 @@ const Resume = () => {
             <h3 className="resume-title">Professional Experience</h3>
 
             {data.jobExperiences.map((job) => (
-              <div className="col-lg-6" data-aos="fade-up">
-                <div className="resume-item" key={job.title}>
+              <div className="col-lg-6" data-aos="fade-up" key={job.title}>
+                <div className="resume-item">
                   <h4>{job.title}</h4>
                   <h5>{job.date}</h5>
                   <p>

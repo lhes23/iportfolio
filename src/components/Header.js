@@ -1,15 +1,18 @@
+import { useState } from "react";
 import data from "../api/data.json";
+import Nav from "./Nav";
 
 const Header = () => {
   return (
     <>
       {/* ======= Mobile nav toggle button ======= */}
       <i className="bi bi-list mobile-nav-toggle d-xl-none" />
+
       <header id="header">
         <div className="d-flex flex-column">
           <div className="profile">
             <img
-              src="assets/img/profilepic.jpg"
+              src={process.env.PUBLIC_URL + "/assets/img/profilepic.jpg"}
               alt="true"
               className="img-fluid rounded-circle"
             />
@@ -31,35 +34,7 @@ const Header = () => {
               ))}
             </div>
           </div>
-          <nav id="navbar" className="nav-menu navbar">
-            <ul>
-              <li>
-                <a href="#hero" className="nav-link scrollto active">
-                  <i className="bx bx-home" /> <span>Home</span>
-                </a>
-              </li>
-              <li>
-                <a href="#about" className="nav-link scrollto">
-                  <i className="bx bx-user" /> <span>About</span>
-                </a>
-              </li>
-              <li>
-                <a href="#resume" className="nav-link scrollto">
-                  <i className="bx bx-file-blank" /> <span>Resume</span>
-                </a>
-              </li>
-              <li>
-                <a href="#portfolio" className="nav-link scrollto">
-                  <i className="bx bx-book-content" /> <span>Portfolio</span>
-                </a>
-              </li>
-              <li>
-                <a href="#contact" className="nav-link scrollto">
-                  <i className="bx bx-envelope" /> <span>Contact</span>
-                </a>
-              </li>
-            </ul>
-          </nav>
+          <Nav />
         </div>
       </header>
     </>
