@@ -6,7 +6,7 @@
     "address": "New Cabalan, Olongapo City, Zambales, Philippines",
     "email": "lesterreandino@gmail.com",
     "phoneNumber": "+63-915-982-2241",
-    "about": "A Husband and a Father of 3 kids. Enthusiastic in giving value to businesses and companies by using Web Development skills"
+    "about": "A Husband and a Father of 3 kids. Enthusiastic in giving value to businesses and companies by using Web Development skills. Seeking extensive experience that will be further developed and continues self improvement to give more value and become an asset to the company"
   },
   "education": {
     "degree": "Bachelor",
@@ -17,7 +17,7 @@
   },
   "professionalDetails": {
     "mainTitles": "Web Developer and Designer",
-    "summary": "Seeking extensive experience that will be further developed and continues self improvement to give more value and become an asset to the company",
+    "summary": "An experienced Production Manager leading 14 staff and 5 sections. A Web Developer with experienced in Wordpress Development. Full Stack Development with technologies like HTML, CSS, Javascript, React, Bootstrap, PHP, Python and Database Management. Highly qualified and well established in a team collaboration and administrative environments that are fast paced and challenging",
     "jobTitles": [
       "Web Developer",
       "Web Designer",
@@ -25,14 +25,14 @@
       "Virtual Assistant",
       "Dancer"
     ],
-    "skills": {
-      "HTML": 95,
-      "CSS": 90,
-      "JavaScript": 80,
-      "PHP": 80,
-      "Wordpress": 90,
-      "Python": 75
-    }
+    "skills": [
+      { "name": "HTML", "rate": 95 },
+      { "name": "CSS", "rate": 90 },
+      { "name": "Javascript", "rate": 80 },
+      { "name": "PHP", "rate": 80 },
+      { "name": "WordPress", "rate": 90 },
+      { "name": "Python", "rate": 75 }
+    ]
   },
   "jobExperiences": [
     {

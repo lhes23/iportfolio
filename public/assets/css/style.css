@@ -306,6 +306,9 @@ section {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
+.about {
+  padding: 60px 0 0px;
+}
 .about .content h3 {
   font-weight: 700;
   font-size: 26px;
@@ -965,7 +968,7 @@ section {
   position: fixed;
   left: 0;
   bottom: 0;
-  width: 300px;
+  width: 100%;
   z-index: 9999;
   background: #040b14;
 }

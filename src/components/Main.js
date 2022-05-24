@@ -3,6 +3,7 @@ import About from "./About";
 import Resume from "./Resume";
 import Portfolio from "./Portfolio";
 import Contact from "./Contact";
+import Footer from "./Footer";
 
 const Main = () => {
   return (
@@ -14,6 +15,7 @@ const Main = () => {
         <Resume />
         <Portfolio />
         <Contact />
+        <Footer />
       </main>
       {/* End #main */}
 

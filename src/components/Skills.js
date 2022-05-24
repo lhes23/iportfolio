@@ -18,22 +18,16 @@ const Skills = () => {
           </div>
           <div className="row skills-content">
             <div className="col-lg-12" data-aos="fade-up">
-              {Object.entries(data.professionalDetails.skills).map(
-                (skillsArray, i) => (
-                  <div className="progress" key={i}>
-                    <span className="skill">
-                      {skillsArray[0]} <i className="val">{skillsArray[1]}%</i>
-                    </span>
-                    <div className="progressBar">
-                      <ProgressBar
-                        now={skillsArray[1]}
-                        animated
-                        variant="info"
-                      />
-                    </div>
+              {data.professionalDetails.skills.map((skill) => (
+                <div className="progress" key={skill.name}>
+                  <span className="skill">
+                    {skill.name} <i className="val">{skill.rate}%</i>
+                  </span>
+                  <div className="progressBar">
+                    <ProgressBar now={skill.rate} animated variant="info" />
                   </div>
-                )
-              )}
+                </div>
+              ))}
             </div>
           </div>
         </div>
