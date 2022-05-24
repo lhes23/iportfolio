@@ -16,7 +16,7 @@ const Resume = () => {
                   " " +
                   data.personalDetails.lastName}
               </h4>
-              <p className="summary">
+              <p>
                 <em>{data.professionalDetails.summary}</em>
               </p>
               <span className="resumeList">{data.personalDetails.address}</span>
