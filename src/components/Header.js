@@ -10,7 +10,7 @@ const Header = () => {
           <div className="profile">
             <img
               src="assets/img/profilepic.jpg"
-              alt
+              alt="true"
               className="img-fluid rounded-circle"
             />
             <h1 className="text-light">
@@ -20,7 +20,12 @@ const Header = () => {
             </h1>
             <div className="social-links mt-3 text-center">
               {data.socialMedias.map((socmed) => (
-                <a href={socmed.url} className={socmed.title} target="_blank">
+                <a
+                  href={socmed.url}
+                  className={socmed.title}
+                  target="_blank"
+                  key={socmed.title}
+                >
                   <i className={`bx bxl-${socmed.title}`} />
                 </a>
               ))}

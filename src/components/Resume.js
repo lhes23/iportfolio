@@ -20,13 +20,13 @@ const Resume = () => {
               <p>
                 <em>{data.professionalDetails.summary}</em>
               </p>
-              <ul>
-                <li>{data.personalDetails.address}</li>
-                <li>{data.personalDetails.phoneNumber}</li>
-                <li>{data.personalDetails.email}</li>
-              </ul>
+              <span className="resumeList">{data.personalDetails.address}</span>
+              <span className="resumeList">
+                {data.personalDetails.phoneNumber}
+              </span>
+              <span className="resumeList">{data.personalDetails.email}</span>
             </div>
-            <div className="col-lg-6" data-aos="fade-up">
+            <div className="col-lg-12" data-aos="fade-up">
               <h3 className="resume-title">Professional Experience</h3>
 
               {data.jobExperiences.map((job) => (
@@ -38,13 +38,13 @@ const Resume = () => {
                   </p>
                   <ul>
                     {job.tasks.map((task) => (
-                      <li>{task}</li>
+                      <li key={task}>{task}</li>
                     ))}
                   </ul>
                 </div>
               ))}
             </div>
-            <div className="col-lg-6" data-aos="fade-up" data-aos-delay={100}>
+            <div className="col-lg-12" data-aos="fade-up" data-aos-delay={100}>
               <h3 className="resume-title">Education</h3>
               <div className="resume-item">
                 <h4>{data.education.course}</h4>
