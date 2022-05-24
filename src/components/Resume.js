@@ -10,14 +10,13 @@ const Resume = () => {
             <h2>Resume</h2>
           </div>
           <div className="row">
-            <h3 className="resume-title">Sumary</h3>
             <div className="resume-item pb-0">
               <h4>
                 {data.personalDetails.firstName +
                   " " +
                   data.personalDetails.lastName}
               </h4>
-              <p>
+              <p className="summary">
                 <em>{data.professionalDetails.summary}</em>
               </p>
               <span className="resumeList">{data.personalDetails.address}</span>
