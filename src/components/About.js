@@ -14,7 +14,11 @@ const About = () => {
           </div>
           <div className="row">
             <div className="col-lg-4" data-aos="fade-right">
-              <img src="assets/img/profilepic2.png" className="img-fluid" alt />
+              <img
+                src="assets/img/profilepic2.png"
+                className="img-fluid"
+                alt="true"
+              />
             </div>
             <div className="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
               <h3>{data.professionalDetails.mainTitles}</h3>

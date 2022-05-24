@@ -564,6 +564,11 @@ section {
   bottom: 0;
 }
 
+.portfolio .listBtn {
+  background: Transparent;
+  border: none;
+}
+
 /*--------------------------------------------------------------
 # Portfolio Details
 --------------------------------------------------------------*/
