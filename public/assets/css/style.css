@@ -127,13 +127,14 @@ h6 {
   left: 0;
 }
 
-@media (max-width: 650px) {
+@media (max-width: 600px) {
   .header {
     left: -300px;
   }
 
   .headerHide {
-    left: -300px;
+    /* left: -300px; */
+    display: none;
   }
 
   #main {
