@@ -10,7 +10,6 @@ const HeroSection = () => {
         id="hero"
         className="d-flex flex-column justify-content-center align-items-center"
       >
-        <div className="heroOverlay"></div>
         <video loop autoPlay muted className="heroBackground" src={videoBG} />
         <div className="hero-container" data-aos="fade-in">
           <h1>
