@@ -42,26 +42,47 @@
       "tasks": [
         "Managing the main website in WordPress hosted in Amazon Web Service (AWS) Cloud using Secure Shell (SSH) and Github",
         "Develop a python program that can automate the integration and update of the site",
-        "Execute SQL command to Database whenever we need to change something  like date or string"
+        "Execute SQL command to Database whenever we need to change something  like date or string",
+        "Develop and design multiple websites for lead generation using WordPress",
+        "Design and Build WordPress Websites with DIVI and Thrive Themes",
+        "Experience in full-stack development using HTML, CSS, Javascript, React, Bootstrap, Python, and PHP. Database management like Phpmyadmin, MySQL, Adminer.",
+        "Proficient in Cpanel, Web Host Manager(WHM), Domain Name System (DNS), Hosting and Registrars",
+        "Practicing Python Web and desktop applications using Django, Tkinter, and SimpleGUI.",
+        "Handled different writers and paid them on a weekly basis",
+        "Experience in Digital Marketing like Copywriting. Blogging, SEO, Email Marketing and Facebook Ads"
       ]
     },
     {
       "title": "Production Manager",
       "date": "2016 - 2017",
       "company": "LINDBERG AG A4 - Branch",
-      "tasks": ["lead", "manage"]
+      "tasks": [
+        "Responsible for Leading and Managing the Production",
+        "Handle 14 staff with 5 Sections (Inventory, Work order Process, Adjustment Section, Sales Order Process, and Quality Controls)",
+        "Ensuring goals are completed in a given time by having a list generated using spreadsheets",
+        "Improve efficiency and effectiveness by monitoring inventory and consumptions",
+        "Develop a PHP software for monitoring process using Codeigniter"
+      ]
     },
     {
       "title": "Production Line Leader",
       "date": "2010 - 2016",
       "company": "LINDBERG AG A4 - Branch",
-      "tasks": ["lead", "manage"]
+      "tasks": [
+        "Supervising the production team members consists of 10 persons",
+        "Hands-on in production, grinding, polishing, welding of precious materials.",
+        "Training newly hired by showing the right practice and standard operating procedure"
+      ]
     },
     {
       "title": "Production Assistant",
       "date": "2008 - 2010",
       "company": "LINDBERG AG A4 - Branch",
-      "tasks": ["lead", "manage"]
+      "tasks": [
+        "Buffing and polishing of acetate, titanium, and precious metals",
+        "Doing any given tasks in production according to the immediate superior",
+        "Willing to work overtimes when needed"
+      ]
     }
   ],
   "socialMedias": [
