@@ -3,6 +3,7 @@ import data from "../api/data.json";
 import Nav from "./Nav";
 
 const Header = () => {
+  const [showMenu, setShowMenu] = useState(true);
   return (
     <>
       {/* ======= Mobile nav toggle button ======= */}
