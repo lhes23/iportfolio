@@ -1,14 +1,18 @@
 import data from "../api/data.json";
 import Typed from "react-typed";
+import videoBG from "../videos/video.mp4";
 
 const HeroSection = () => {
   return (
     <>
       {/* ======= Hero Section ======= */}
+
       <section
         id="hero"
         className="d-flex flex-column justify-content-center align-items-center"
       >
+        <div className="heroOverlay"></div>
+        <video loop autoPlay muted className="heroBackground" src={videoBG} />
         <div className="hero-container" data-aos="fade-in">
           <h1>
             {data.personalDetails.firstName} {data.personalDetails.lastName}
