@@ -3,13 +3,16 @@ import data from "../api/data.json";
 import Nav from "./Nav";
 
 const Header = () => {
-  const [showMenu, setShowMenu] = useState(true);
+  const [showHeader, setShowHeader] = useState(true);
   return (
     <>
       {/* ======= Mobile nav toggle button ======= */}
-      <i className="bi bi-list mobile-nav-toggle d-xl-none" />
+      <i
+        className="bi bi-list mobile-nav-toggle d-xl-none"
+        onClick={() => setShowHeader(!showHeader)}
+      />
 
-      <header id="header">
+      <header id="header" className={showHeader ? "headerShow" : "headerHide"}>
         <div className="d-flex flex-column">
           <div className="profile">
             <img

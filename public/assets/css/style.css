@@ -68,7 +68,7 @@ h6 {
 #header {
   position: fixed;
   top: 0;
-  left: 0;
+  /* left: 0; */
   bottom: 0;
   width: 300px;
   transition: all ease-in-out 0.5s;
@@ -122,10 +122,18 @@ h6 {
   margin-left: 300px;
 }
 
+.headerShow {
+  left: 0;
+}
+
 @media (max-width: 768px) {
-  /* #header {
+  .header {
     left: -300px;
-  } */
+  }
+
+  .headerHide {
+    left: -300px;
+  }
 
   #main {
     margin-left: 0;
@@ -183,7 +191,7 @@ h6 {
   right: 15px;
   top: 15px;
   z-index: 9998;
-  border: 0;
+  order: 0;
   font-size: 24px;
   transition: all 0.4s;
   outline: none !important;
