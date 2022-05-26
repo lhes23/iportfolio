@@ -54,13 +54,14 @@ const Portfolio = () => {
           >
             {filteredPort.map((portfolio) => (
               <div
-                className="col-lg-4 col-md-6 portfolio-item"
+                className="col-lg-6 col-md-6 portfolio-item"
                 key={portfolio.img}
               >
                 <div className="portfolio-wrap">
                   <img
                     // src={`%PUBLIC_URL%/assets/img/portfolio/${portfolio.img}`}
-                    src={require(`../../public/assets/img/portfolio/${portfolio.img}`)}
+                    // src={require(`../../public/assets/img/portfolio/${portfolio.img}`)}
+                    src={require(`../portfolio-imgs/${portfolio.img}`)}
                     className="img-fluid"
                     alt="true"
                   />

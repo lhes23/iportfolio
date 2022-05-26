@@ -107,20 +107,104 @@
     {
       "name": "All Good Towing",
       "url": "https://www.allgoodtowing.com/",
-      "img": "portfolio-1.jpg",
+      "img": "allgoodtowing.com.jpg",
       "app": "wordpress"
     },
     {
       "name": "Atlanta Tree Service Co",
       "url": "https://atlantatreeserviceco.com/",
-      "img": "portfolio-2.jpg",
+      "img": "atlantatreeserviceco.com.jpg",
       "app": "wordpress"
     },
     {
-      "name": "Atlanta Tree Service Co",
-      "url": "https://atlantatreeserviceco.com/",
-      "img": "portfolio-3.jpg",
-      "app": "react"
+      "name": "Chicago Commercial Roofing Co",
+      "url": "https://chicagocommercialroofingco.com/",
+      "img": "chicagocommercialroofingco.com.jpg",
+      "app": "wordpress"
+    },
+    {
+      "name": "Chicago Sewer Rescue",
+      "url": "https://chicagosewerrescue.com/",
+      "img": "chicagosewerrescue.com.jpg",
+      "app": "wordpress"
+    },
+    {
+      "name": "Detroit Legacy Towing Service",
+      "url": "https://detroitlegacytowingservice.com/",
+      "img": "detroitlegacytowingservice.com.jpg",
+      "app": "wordpress"
+    },
+    {
+      "name": "Detroit Property Management Parks",
+      "url": "https://detroitpropertymanagementparks.com/",
+      "img": "detroitpropertymanagementparks.com.jpg",
+      "app": "wordpress"
+    },
+    {
+      "name": "Extraction Pro Water Removal",
+      "url": "https://extractionprowaterremoval.com/",
+      "img": "extractionprowaterremoval.com.jpg",
+      "app": "wordpress"
+    },
+    {
+      "name": "Hurricane Tree Service",
+      "url": "https://hurricanetreeservice.org/",
+      "img": "hurricanetreeservice.org.jpg",
+      "app": "wordpress"
+    },
+    {
+      "name": "Lansing Water Damage Restoration",
+      "url": "https://lansingwaterdamagerestoration.com/",
+      "img": "lansingwaterdamagerestoration.com.jpg",
+      "app": "wordpress"
+    },
+    {
+      "name": "Legacy Car Accident Lawyers",
+      "url": "https://legacycaraccidentlawyers.com/",
+      "img": "legacycaraccidentlawyers.com.jpg",
+      "app": "wordpress"
+    },
+    {
+      "name": "MC Auto Body Repair",
+      "url": "https://mcautobodyrepair.com/",
+      "img": "mcautobodyrepair.com.jpg",
+      "app": "wordpress"
+    },
+    {
+      "name": "Modesto HVACS",
+      "url": "https://modestohvacs.com",
+      "img": "modestohvacs.com.jpg",
+      "app": "wordpress"
+    },
+    {
+      "name": "Moving San Jose Local Long Distance",
+      "url": "https://movingsanjoselocallongdistance.com",
+      "img": "movingsanjoselocallongdistance.com.jpg",
+      "app": "wordpress"
+    },
+    {
+      "name": "Mt Prospect Plumber",
+      "url": "https://mtprospectplumber.org",
+      "img": "mtprospectplumber.org.jpg",
+      "app": "wordpress"
+    },
+    {
+      "name": "oFallon Roofer",
+      "url": "https://ofallonroofer.com",
+      "img": "ofallonroofer.com.jpg",
+      "app": "wordpress"
+    },
+    {
+      "name": "Spotless Maids House Cleaning Service",
+      "url": "https://spotlessmaidshousecleaningservice.com",
+      "img": "spotlessmaidshousecleaningservice.com.jpg",
+      "app": "wordpress"
+    },
+    {
+      "name": "St Charles Roof",
+      "url": "https://stcharlesroof.com",
+      "img": "stcharlesroof.com.jpg",
+      "app": "wordpress"
     }
   ]
 }
