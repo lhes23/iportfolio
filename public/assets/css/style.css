@@ -232,6 +232,7 @@ section {
   height: 100vh;
   background: url("../img/hero-bg.jpg") top center;
   background-size: cover;
+  margin-left: 0px;
 }
 #hero:before {
   content: "";
