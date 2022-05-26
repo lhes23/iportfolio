@@ -5,14 +5,25 @@ import Footer from "./components/Footer";
 import Header from "./components/Header";
 import HeroSection from "./components/HeroSection";
 import Main from "./components/Main";
-import videoBG from "./videos/video.mp4";
+import About from "./components/About";
+import { Route, Routes } from "react-router-dom";
+import Resume from "./components/Resume";
+import Portfolio from "./components/Portfolio";
+import Contact from "./components/Contact";
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <HeroSection />
-      <Main />
+      <Routes>
+        <Route path="/" element={<HeroSection />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/resume" element={<Resume />} />
+        <Route path="/portfolio" element={<Portfolio />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
+      {/* <HeroSection />
+      <Main /> */}
       {/* <Footer /> */}
     </div>
   );

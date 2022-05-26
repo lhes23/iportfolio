@@ -1,32 +1,39 @@
+import { Link } from "react-router-dom";
+
 const Nav = () => {
   return (
     <>
       <nav id="navbar" className="nav-menu navbar">
         <ul>
           <li>
-            <a href="#hero" className="nav-link scrollto active">
+            <Link to="/">
               <i className="bx bx-home" /> <span>Home</span>
-            </a>
+            </Link>
+            {/* <a href="#hero" className="nav-link scrollto active"></a> */}
           </li>
           <li>
-            <a href="#about" className="nav-link scrollto">
+            <Link to="/about">
               <i className="bx bx-user" /> <span>About</span>
-            </a>
+            </Link>
+            {/* <a href="#about" className="nav-link scrollto"></a> */}
           </li>
           <li>
-            <a href="#resume" className="nav-link scrollto">
+            <Link to="/resume">
               <i className="bx bx-file-blank" /> <span>Resume</span>
-            </a>
+            </Link>
+            {/*<a href="#resume" className="nav-link scrollto"> </a> */}
           </li>
           <li>
-            <a href="#portfolio" className="nav-link scrollto">
+            <Link to="/portfolio">
               <i className="bx bx-book-content" /> <span>Portfolio</span>
-            </a>
+            </Link>
+            {/* <a href="#portfolio" className="nav-link scrollto"></a> */}
           </li>
           <li>
-            <a href="#contact" className="nav-link scrollto">
+            <Link to="/contact">
               <i className="bx bx-envelope" /> <span>Contact</span>
-            </a>
+            </Link>
+            {/* <a href="#contact" className="nav-link scrollto"></a> */}
           </li>
         </ul>
       </nav>

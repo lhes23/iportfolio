@@ -71,6 +71,7 @@ h6 {
   top: 0;
   /* left: 0; */
   bottom: 0;
+  height: 100vh;
   width: 300px;
   transition: all ease-in-out 0.5s;
   z-index: 9997;
@@ -119,7 +120,8 @@ h6 {
   text-decoration: none;
 }
 
-#main {
+#main,
+section {
   margin-left: 300px;
 }
 
@@ -288,6 +290,7 @@ h6 {
 --------------------------------------------------------------*/
 section {
   padding: 60px 60px;
+  object-fit: cover;
   overflow: hidden;
 }
 
@@ -324,15 +327,14 @@ section {
   section {
     padding: 0px 0px;
     overflow: hidden;
+    margin-left: 0px;
   }
 }
 
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
-.about {
-  padding: 60px 0 0px;
-}
+
 .about .content h3 {
   font-weight: 700;
   font-size: 26px;
