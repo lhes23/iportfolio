@@ -16,7 +16,7 @@ const Header = () => {
         <div className="d-flex flex-column">
           <div className="profile">
             <img
-              src={process.env.PUBLIC_URL + "/assets/img/profilepic.jpg"}
+              src={require("../profile-imgs/profilepic.jpg")}
               alt="true"
               className="img-fluid rounded-circle"
             />

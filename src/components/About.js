@@ -15,7 +15,7 @@ const About = () => {
           <div className="row">
             <div className="col-lg-4" data-aos="fade-right">
               <img
-                src="assets/img/profilepic2.png"
+                src={require("../profile-imgs/profilepic2.png")}
                 className="img-fluid"
                 alt="true"
               />
