@@ -4,10 +4,10 @@ import { Modal, Button } from "react-bootstrap";
 
 const Portfolio = () => {
   const [filteredPort, setFilteredPort] = useState(data.portfolio);
-  const [show, setShow] = useState(false);
+  const [showModal, setShowModal] = useState(false);
 
-  const handleClose = () => setShow(false);
-  const handleShow = () => setShow(true);
+  const handleCloseModal = () => setShowModal(false);
+  const handleShowModal = () => setShowModal(true);
 
   const portfolioAll = () => {
     setFilteredPort(data.portfolio);
@@ -58,47 +58,47 @@ const Portfolio = () => {
             data-aos-delay={100}
           >
             {filteredPort.map((portfolio) => (
-              <div
-                className="col-lg-6 col-md-6 portfolio-item"
-                key={portfolio.img}
-              >
-                <div className="portfolio-wrap">
-                  <img
-                    src={require(`../portfolio-imgs/${portfolio.img}`)}
-                    className="img-fluid"
-                    alt="true"
-                    onClick={handleShow}
-                  />
+              <>
+                <div
+                  className="col-lg-6 col-md-6 portfolio-item"
+                  key={portfolio.img}
+                >
+                  <div className="portfolio-wrap" onClick={handleShowModal}>
+                    <img
+                      src={require(`../portfolio-imgs/${portfolio.img}`)}
+                      className="img-fluid"
+                      alt="true"
+                    />
 
-                  <div className="portfolio-links">
-                    <a
-                      href={portfolio.url}
-                      title="More Details"
-                      target="_blank"
-                    >
-                      <i className="bx bx-link" />
-                    </a>
+                    <div className="portfolio-links">
+                      <a
+                        href={portfolio.url}
+                        title="More Details"
+                        target="_blank"
+                      >
+                        <i className="bx bx-link" />
+                      </a>
+                    </div>
                   </div>
+                  <Modal
+                    show={showModal}
+                    onHide={handleCloseModal}
+                    aria-labelledby="contained-modal-title-vcenter"
+                    centered
+                  >
+                    <Modal.Header closeButton />
+                    <Modal.Body>
+                      <img
+                        src={require(`../portfolio-imgs/${portfolio.img}`)}
+                        sizes="cover"
+                      />
+                    </Modal.Body>
+                  </Modal>
                 </div>
-              </div>
+              </>
             ))}
           </div>
         </div>
-
-        <Modal show={show} onHide={handleClose}>
-          <Modal.Header closeButton>
-            <Modal.Title>Modal heading</Modal.Title>
-          </Modal.Header>
-          <Modal.Body>Woohoo, you're reading this text in a modal!</Modal.Body>
-          <Modal.Footer>
-            <Button variant="secondary" onClick={handleClose}>
-              Close
-            </Button>
-            <Button variant="primary" onClick={handleClose}>
-              Save Changes
-            </Button>
-          </Modal.Footer>
-        </Modal>
       </section>
       {/* End Portfolio Section */}
     </>
