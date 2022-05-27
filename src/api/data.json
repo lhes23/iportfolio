@@ -26,6 +26,7 @@
       "Virtual Assistant",
       "Dancer"
     ],
+    "website": "https://lhes23.github.io/iportfolio",
     "skills": [
       { "name": "HTML", "rate": 95 },
       { "name": "CSS", "rate": 90 },

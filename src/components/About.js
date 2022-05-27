@@ -33,10 +33,6 @@ const About = () => {
                     </li>
                     <li>
                       <i className="bi bi-chevron-right" />
-                      <strong>Website:</strong> <span>www.example.com</span>
-                    </li>
-                    <li>
-                      <i className="bi bi-chevron-right" />
                       <strong>Phone:</strong>{" "}
                       <span>{data.personalDetails.phoneNumber}</span>
                     </li>
