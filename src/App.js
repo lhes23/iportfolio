@@ -9,6 +9,7 @@ import About from "./components/About";
 import { Route, Routes } from "react-router-dom";
 import Resume from "./components/Resume";
 import Portfolio from "./components/Portfolio";
+import PortfolioDetails from "./components/PortfolioDetails";
 import Contact from "./components/Contact";
 
 function App() {
@@ -19,11 +20,10 @@ function App() {
         <Route path="/" element={<HeroSection />} />
         <Route path="/about" element={<About />} />
         <Route path="/resume" element={<Resume />} />
+        <Route path="/portfolio/:id" element={<PortfolioDetails />} />
         <Route path="/portfolio" element={<Portfolio />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
-      {/* <HeroSection />
-      <Main /> */}
       {/* <Footer /> */}
     </div>
   );

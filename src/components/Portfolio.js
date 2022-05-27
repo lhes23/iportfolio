@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import data from "../api/data.json";
 
 const Portfolio = () => {
@@ -53,30 +54,29 @@ const Portfolio = () => {
             data-aos-delay={100}
           >
             {filteredPort.map((portfolio) => (
-              <>
-                <div
-                  className="col-lg-6 col-md-6 portfolio-item"
-                  key={portfolio.img}
-                >
+              <div
+                className="col-lg-6 col-md-6 portfolio-item"
+                key={portfolio.id}
+              >
+                <Link to={`${portfolio.id}`}>
                   <div className="portfolio-wrap">
                     <img
                       src={require(`../portfolio-imgs/${portfolio.img}`)}
                       className="img-fluid"
                       alt="true"
                     />
-
                     <div className="portfolio-links">
-                      <a
+                      {/* <a
                         href={portfolio.url}
                         title="More Details"
                         target="_blank"
                       >
                         <i className="bx bx-link" />
-                      </a>
+                      </a> */}
                     </div>
                   </div>
-                </div>
-              </>
+                </Link>
+              </div>
             ))}
           </div>
         </div>
