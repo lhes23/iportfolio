@@ -1,13 +1,8 @@
 import { useState } from "react";
 import data from "../api/data.json";
-import { Modal, Button } from "react-bootstrap";
 
 const Portfolio = () => {
   const [filteredPort, setFilteredPort] = useState(data.portfolio);
-  const [showModal, setShowModal] = useState(false);
-
-  const handleCloseModal = () => setShowModal(false);
-  const handleShowModal = () => setShowModal(true);
 
   const portfolioAll = () => {
     setFilteredPort(data.portfolio);
@@ -63,7 +58,7 @@ const Portfolio = () => {
                   className="col-lg-6 col-md-6 portfolio-item"
                   key={portfolio.img}
                 >
-                  <div className="portfolio-wrap" onClick={handleShowModal}>
+                  <div className="portfolio-wrap">
                     <img
                       src={require(`../portfolio-imgs/${portfolio.img}`)}
                       className="img-fluid"
@@ -80,20 +75,6 @@ const Portfolio = () => {
                       </a>
                     </div>
                   </div>
-                  <Modal
-                    show={showModal}
-                    onHide={handleCloseModal}
-                    aria-labelledby="contained-modal-title-vcenter"
-                    centered
-                  >
-                    <Modal.Header closeButton />
-                    <Modal.Body>
-                      <img
-                        src={require(`../portfolio-imgs/${portfolio.img}`)}
-                        sizes="cover"
-                      />
-                    </Modal.Body>
-                  </Modal>
                 </div>
               </>
             ))}
