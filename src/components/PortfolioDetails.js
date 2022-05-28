@@ -18,7 +18,7 @@ const PortfolioDetails = () => {
                   <div className="swiper-slide">
                     <img
                       src={require(`../portfolio-imgs/${details.img}`)}
-                      alt="true"
+                      alt={details.name}
                     />
                   </div>
                 </div>

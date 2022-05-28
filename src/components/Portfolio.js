@@ -63,7 +63,7 @@ const Portfolio = () => {
                     <img
                       src={require(`../portfolio-imgs/${portfolio.img}`)}
                       className="img-fluid"
-                      alt="true"
+                      alt={portfolio.name}
                     />
                     <div className="portfolio-links">
                       {/* <a
