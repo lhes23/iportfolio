@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/iportfolio/static/css/main.0b4e74b4.css",
-    "main.js": "/iportfolio/static/js/main.321548ec.js",
+    "main.js": "/iportfolio/static/js/main.496fc05c.js",
     "static/js/787.89cdefba.chunk.js": "/iportfolio/static/js/787.89cdefba.chunk.js",
     "static/media/video.mp4": "/iportfolio/static/media/video.55c85a6a107084dd7111.mp4",
+    "static/media/profilepic2.png": "/iportfolio/static/media/profilepic2.7fc5580f6ab5ea7df437.png",
     "static/media/allgoodtowing.com.jpg": "/iportfolio/static/media/allgoodtowing.com.32947b7d2d57b81b2c01.jpg",
     "static/media/detroitlegacytowingservice.com.jpg": "/iportfolio/static/media/detroitlegacytowingservice.com.5b18bc00a64af5b8a174.jpg",
     "static/media/atlantatreeserviceco.com.jpg": "/iportfolio/static/media/atlantatreeserviceco.com.f347c963aaaeada37a98.jpg",
@@ -11,6 +12,7 @@
     "static/media/extractionprowaterremoval.com.jpg": "/iportfolio/static/media/extractionprowaterremoval.com.f1f92639f554b0ff8543.jpg",
     "static/media/mtprospectplumber.org.jpg": "/iportfolio/static/media/mtprospectplumber.org.4ee63f1db01ab0a987e3.jpg",
     "static/media/hurricanetreeservice.org.jpg": "/iportfolio/static/media/hurricanetreeservice.org.06b350a05877b2eed163.jpg",
+    "static/media/profilepic.jpg": "/iportfolio/static/media/profilepic.a99ce17359fc96afd833.jpg",
     "static/media/detroitpropertymanagementparks.com.jpg": "/iportfolio/static/media/detroitpropertymanagementparks.com.48611823af7be0bebb91.jpg",
     "static/media/legacycaraccidentlawyers.com.jpg": "/iportfolio/static/media/legacycaraccidentlawyers.com.23d6412da6bade8034e6.jpg",
     "static/media/ofallonroofer.com.jpg": "/iportfolio/static/media/ofallonroofer.com.43e8bf1fd08ebbf5c095.jpg",
@@ -23,11 +25,11 @@
     "static/media/lansingwaterdamagerestoration.com.jpg": "/iportfolio/static/media/lansingwaterdamagerestoration.com.2d7064780fe663a4162a.jpg",
     "index.html": "/iportfolio/index.html",
     "main.0b4e74b4.css.map": "/iportfolio/static/css/main.0b4e74b4.css.map",
-    "main.321548ec.js.map": "/iportfolio/static/js/main.321548ec.js.map",
+    "main.496fc05c.js.map": "/iportfolio/static/js/main.496fc05c.js.map",
     "787.89cdefba.chunk.js.map": "/iportfolio/static/js/787.89cdefba.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0b4e74b4.css",
-    "static/js/main.321548ec.js"
+    "static/js/main.496fc05c.js"
   ]
 }
