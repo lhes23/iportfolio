@@ -65,15 +65,7 @@ const Portfolio = () => {
                       className="img-fluid"
                       alt={portfolio.name}
                     />
-                    <div className="portfolio-links">
-                      {/* <a
-                        href={portfolio.url}
-                        title="More Details"
-                        target="_blank"
-                      >
-                        <i className="bx bx-link" />
-                      </a> */}
-                    </div>
+                    <div className="portfolio-links"></div>
                   </div>
                 </Link>
               </div>
