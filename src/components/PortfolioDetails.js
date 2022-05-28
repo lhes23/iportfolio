@@ -1,8 +1,11 @@
+import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
+import data from "../api/data.json";
 
 const PortfolioDetails = () => {
   const { id } = useParams();
-  console.log(id);
+  const details = data.portfolio.find((det) => det.id === id);
+
   return (
     <>
       {/* ======= Portfolio Details Section ======= */}
@@ -15,19 +18,19 @@ const PortfolioDetails = () => {
                   <div className="swiper-slide">
                     <img
                       src="assets/img/portfolio/portfolio-details-1.jpg"
-                      alt
+                      alt="true"
                     />
                   </div>
                   <div className="swiper-slide">
                     <img
                       src="assets/img/portfolio/portfolio-details-2.jpg"
-                      alt
+                      alt="true"
                     />
                   </div>
                   <div className="swiper-slide">
                     <img
                       src="assets/img/portfolio/portfolio-details-3.jpg"
-                      alt
+                      alt="true"
                     />
                   </div>
                 </div>
@@ -39,7 +42,7 @@ const PortfolioDetails = () => {
                 <h3>Project information</h3>
                 <ul>
                   <li>
-                    <strong>Category</strong>: Web design
+                    <strong>Category</strong>: Web design {id}
                   </li>
                   <li>
                     <strong>Client</strong>: ASU Company
