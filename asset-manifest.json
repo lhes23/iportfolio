@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/iportfolio/static/css/main.0b4e74b4.css",
-    "main.js": "/iportfolio/static/js/main.101c2c64.js",
+    "main.js": "/iportfolio/static/js/main.33a680ad.js",
     "static/js/787.89cdefba.chunk.js": "/iportfolio/static/js/787.89cdefba.chunk.js",
     "static/media/video.mp4": "/iportfolio/static/media/video.55c85a6a107084dd7111.mp4",
     "static/media/profilepic2.png": "/iportfolio/static/media/profilepic2.7fc5580f6ab5ea7df437.png",
@@ -25,11 +25,11 @@
     "static/media/lansingwaterdamagerestoration.com.jpg": "/iportfolio/static/media/lansingwaterdamagerestoration.com.2d7064780fe663a4162a.jpg",
     "index.html": "/iportfolio/index.html",
     "main.0b4e74b4.css.map": "/iportfolio/static/css/main.0b4e74b4.css.map",
-    "main.101c2c64.js.map": "/iportfolio/static/js/main.101c2c64.js.map",
+    "main.33a680ad.js.map": "/iportfolio/static/js/main.33a680ad.js.map",
     "787.89cdefba.chunk.js.map": "/iportfolio/static/js/787.89cdefba.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0b4e74b4.css",
-    "static/js/main.101c2c64.js"
+    "static/js/main.33a680ad.js"
   ]
 }
